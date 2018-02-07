@@ -1,0 +1,38 @@
+body{
+	font-family: "Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
+	line-height:1.6;
+}
+section{
+	border: 1px solid #000;
+	height: 100px;
+	margin: 40px auto;
+	width: 400px;
+}
+h1{
+	background-color: #990000;
+	color: #FFF;
+	font-size: 1.2em;
+	left: -10px;
+	padding: 5px 0;
+	position: relative;
+	text-align: center;
+	width: 420px;
+}
+h1::before{
+	border: 5px solid #7C0000;
+	content: "";
+	left: 0;
+	position: absolute;
+	top: -10px;
+}
+footer{
+	font-size: 12px;
+	text-align: center;
+}
+.logo{
+	width: 800px;
+}
+.container{
+	margin: 0 auto;
+	width: 800px;
+}
